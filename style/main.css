@@ -1,0 +1,157 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  padding: 10px 0 24px 0;
+}
+nav a.navbar-item {
+  transition: 0.5s;
+}
+nav a.navbar-item:hover {
+  color: hsl(5, 85%, 63%);
+  background: unset;
+}
+nav .navbar-burger span {
+  width: 30px;
+  height: 2px;
+  left: calc(50% - 20px);
+}
+nav .navbar-burger:hover {
+  background: unset;
+}
+
+.main-post .img-holder {
+  width: 100%;
+  height: 315px;
+}
+.main-post .img-holder img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-post h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  line-height: 110%;
+  padding: 40px 40px 0 10px;
+  width: 359px;
+}
+.main-post .resume-post {
+  text-align: left;
+  padding: 40px 40px 0 0;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+  margin-bottom: 20px;
+}
+.main-post .read-more {
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: hsl(5, 85%, 63%);
+  padding: 15px 35px;
+  font-size: 14px;
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+  letter-spacing: 4.1px;
+  margin: 15px 0;
+  transition: 0.5s;
+}
+.main-post .read-more:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.recent-news {
+  padding: 25px;
+  background-color: hsl(240, 100%, 5%);
+}
+.recent-news h2 {
+  color: hsl(35, 77%, 62%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 0 0 20px;
+}
+.recent-news h3 {
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.recent-news h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+.recent-news p {
+  color: hsl(233, 8%, 79%);
+  font-size: 15px;
+}
+.recent-news hr {
+  border: 1px solid hsl(236, 13%, 42%);
+  margin: 28px 0;
+}
+
+.others-post {
+  padding: 40px 0;
+}
+.others-post img {
+  height: 90%;
+}
+.others-post .post-number {
+  display: block;
+  font-weight: 800;
+  color: hsl(233, 8%, 79%);
+  font-size: 2rem;
+  margin-top: -8px;
+}
+.others-post h4 {
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  font-size: 18px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.others-post h4:hover {
+  color: hsl(5, 85%, 63%);
+}
+.others-post p {
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+
+@media only screen and (max-width: 600px) {
+  .main-post .img-holder {
+    padding: 15px;
+  }
+  .main-post h1 {
+    padding-left: 30px;
+  }
+  .main-post .resume-post {
+    padding: 30px 0 0 30px;
+    letter-spacing: 1px;
+    line-height: 182%;
+  }
+  .main-post .read-more {
+    margin-left: 30px;
+    padding: 18px 35px;
+  }
+  .recent-news {
+    margin: 15px;
+  }
+  .others-post .post-number {
+    font-size: 3rem;
+  }
+  .others-post .columns {
+    display: flex;
+    padding: 0 30px;
+  }
+  .others-post .columns .column {
+    padding: 0;
+  }
+  .others-post .columns h4 {
+    font-size: 16px;
+    margin-top: 98px;
+  }
+}/*# sourceMappingURL=main.css.map */
